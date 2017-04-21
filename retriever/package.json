@@ -1,0 +1,23 @@
+{
+  "name": "benangmerah-retriever",
+  "private": true,
+  "version": "0.1.0",
+  "description": "BenangMerah retriever service",
+  "main": "dist/index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "gulpjs/gulp.git#4.0",
+    "gulp-typescript": "^3.1.6",
+    "tslib": "^1.6.1",
+    "typescript": "^2.2.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benangmerah/benangmerah/retriever"
+  },
+  "author": "Andhika Nugraha (andhika.nugraha@outlook.com)",
+  "license": "MIT"
+}

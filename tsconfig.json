@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "ES6",
+    "importHelpers": true,
+    "alwaysStrict": true
+  },
+  "compileOnSave": true
+}
