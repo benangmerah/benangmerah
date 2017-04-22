@@ -1,11 +1,11 @@
-var gulp = require('gulp');
-var ts = require('gulp-typescript');
-var tsProject = ts.createProject(__dirname + '/tsconfig.json');
+const gulp = require('gulp');
+const ts = require('gulp-typescript');
+const tsProject = ts.createProject(__dirname + '/tsconfig.json');
 
-gulp.task('typescript', function() {
+gulp.task('typescript', () => {
   return tsProject.src()
     .pipe(tsProject())
     .js.pipe(gulp.dest(__dirname + '/dist'));
 });
 
-gulp.task('default', gulp.parallel('typescript'));
+gulp.task('default', ['typescript']);

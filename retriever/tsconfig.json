@@ -1,5 +1,13 @@
 {
   "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2015",
+    "importHelpers": true,
+    "alwaysStrict": true,
+    "noImplicitAny": true
+  },
+  "compileOnSave": true,
   "include": [
     "src/**/*"
   ]

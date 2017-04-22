@@ -4,9 +4,22 @@
   "version": "0.1.0",
   "description": "BenangMerah retriever service",
   "main": "dist/index.js",
-  "dependencies": {},
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "ckan": "^0.2.3",
+    "csv-parser": "^1.11.0",
+    "eventemitter3": "^2.0.3",
+    "isnumeric": "^0.3.2",
+    "node-fetch": "^1.6.3",
+    "p-queue": "^1.0.0",
+    "underscore.string": "^3.3.4",
+    "xxhashjs": "^0.2.1"
+  },
   "devDependencies": {
-    "gulp": "gulpjs/gulp.git#4.0",
+    "@types/cheerio": "^0.22.1",
+    "@types/node-fetch": "^1.6.7",
+    "@types/underscore.string": "^0.0.30",
+    "gulp": "^3.9.1",
     "gulp-typescript": "^3.1.6",
     "tslib": "^1.6.1",
     "typescript": "^2.2.2"
