@@ -11,7 +11,8 @@
     "next": "^2.2.0",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
-    "tslib": "^1.6.1"
+    "tslib": "^1.6.1",
+    "victory": "^0.18.4"
   },
   "scripts": {
     "start": "node dist/server",
