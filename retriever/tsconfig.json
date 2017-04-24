@@ -5,10 +5,15 @@
     "target": "es2015",
     "importHelpers": true,
     "alwaysStrict": true,
-    "noImplicitAny": true
+    "noImplicitAny": true,
+    "outDir": "dist"
   },
   "compileOnSave": true,
   "include": [
-    "src/**/*"
+    "**/*"
+  ],
+  "exclude": [
+    "dist/**/*",
+    "node_modules/**/*"
   ]
 }
