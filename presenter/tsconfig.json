@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2015",
+    "jsx": "react-native",
+    "importHelpers": true,
+    "alwaysStrict": true,
+    "outDir": "dist"
+  }
+}
